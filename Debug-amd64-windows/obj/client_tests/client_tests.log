@@ -1,0 +1,26 @@
+﻿  exception_handler_test.cc
+  exception_handler_death_test.cc
+  exception_handler_nesting_test.cc
+  minidump_test.cc
+  dump_analysis.cc
+  crash_generation_server_test.cc
+X:\Current\breakpad\src\testing\googletest\include\gtest\gtest.h(1394,11): warning C4389: '==': signed/unsigned mismatch
+  (compiling source file 'crash_generation_server_test.cc')
+      X:\Current\breakpad\src\testing\googletest\include\gtest\gtest.h(1394,11):
+      the template instantiation context (the oldest one first) is
+          X:\Current\breakpad\src\client\windows\unittests\crash_generation_server_test.cc(112,7):
+          see reference to function template instantiation 'testing::AssertionResult testing::internal::EqHelper::Compare<long,DWORD,0x0>(const char *,const char *,const T1 &,const T2 &)' being compiled
+          with
+          [
+              T1=long,
+              T2=DWORD
+          ]
+          X:\Current\breakpad\src\testing\googletest\include\gtest\gtest.h(1413,12):
+          see reference to function template instantiation 'testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)' being compiled
+          with
+          [
+              T1=long,
+              T2=DWORD
+          ]
+  
+  client_tests.vcxproj -> X:\Current\breakpad\src\client\windows\Debug\\client_tests.exe

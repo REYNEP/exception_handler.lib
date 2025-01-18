@@ -1,0 +1,3 @@
+﻿  gmock-all.cc
+  gtest_main.cc
+  gmock.vcxproj -> X:\Current\breakpad\src\client\windows\Release\lib\gmock.lib

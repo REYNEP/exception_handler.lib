@@ -1,0 +1,8 @@
+## Google Breakpad Build
+- `google breakpad`:- StackTracer on Crash Library. very hard to build on windows.
+    - However I found a really cool & nice wiki & how-to about it
+    - https://github.com/d1vanov/quentier/wiki/Building-and-installation-of-Quentier's-dependencies#building-google-breakpad
+    - Took me Half an hour to find this guide & finally fkin build this shit
+    - Building Google Breakpad on Windows:- THE GUIDE/WIKI Link Above
+    - BREAKPAD vs CRASHPAD
+        - https://stackoverflow.com/questions/52725299/what-is-the-difference-between-googles-breakpad-and-crashpad-libraries

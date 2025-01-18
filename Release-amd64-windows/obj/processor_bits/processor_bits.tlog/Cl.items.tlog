@@ -1,0 +1,8 @@
+X:\Current\breakpad\src\common\string_conversion.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\string_conversion.obj
+X:\Current\breakpad\src\processor\basic_code_modules.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\basic_code_modules.obj
+X:\Current\breakpad\src\processor\dump_context.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\dump_context.obj
+X:\Current\breakpad\src\processor\dump_object.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\dump_object.obj
+X:\Current\breakpad\src\processor\logging.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\logging.obj
+X:\Current\breakpad\src\processor\minidump.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\minidump.obj
+X:\Current\breakpad\src\processor\pathname_stripper.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\pathname_stripper.obj
+X:\Current\breakpad\src\processor\proc_maps_linux.cc;X:\Current\breakpad\src\client\windows\Release\obj\processor_bits\proc_maps_linux.obj

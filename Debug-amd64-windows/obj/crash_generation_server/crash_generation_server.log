@@ -1,0 +1,126 @@
+﻿  client_info.cc
+  crash_generation_server.cc
+  minidump_generator.cc
+X:\Current\breakpad\src\client\windows\crash_generation\minidump_generator.cc(180,21): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+  
+X:\Current\breakpad\src\client\windows\crash_generation\minidump_generator.cc(180,67): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::checked_array_iterator': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31):
+      the template instantiation context (the oldest one first) is
+          X:\Current\breakpad\src\client\windows\crash_generation\minidump_generator.cc(177,8):
+          see reference to function template instantiation '_OutIt std::copy<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>,
+              _Ty=AVRF_HANDLE_OPERATION,
+              _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<AVRF_HANDLE_OPERATION>>>
+          ]
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(4760,31):
+          see reference to function template instantiation 'decltype(auto) std::_Get_unwrapped_n<_OutIt&,std::_Distance_unknown>(_Iter,const _Diff)' being compiled
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>,
+              _Iter=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *> &,
+              _Diff=std::_Distance_unknown
+          ]
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1394,26):
+          see reference to variable template 'const bool _Unwrappable_for_offset_v<stdext::checked_array_iterator<_AVRF_HANDLE_OPERATION *> &>' being compiled
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1388,44):
+          see reference to variable template 'const bool _Unwrappable_v<stdext::checked_array_iterator<_AVRF_HANDLE_OPERATION *> &,void>' being compiled
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1317,5):
+          see reference to variable template 'const bool _Allow_inheriting_unwrap_v<stdext::checked_array_iterator<_AVRF_HANDLE_OPERATION *>,void>' being compiled
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::_Prevent_inheriting_unwrap': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40):
+      the template instantiation context (the oldest one first) is
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1384,93):
+          see reference to alias template instantiation 'std::_Iter_diff_t<_Iter>' being compiled
+          with
+          [
+              _Iter=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>
+          ]
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(1193,55):
+          see reference to class template instantiation 'std::iterator_traits<_Iter>' being compiled
+          with
+          [
+              _Iter=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>
+          ]
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(515,26):
+          see reference to class template instantiation 'std::_Iterator_traits_base<_Iter,void>' being compiled
+          with
+          [
+              _Iter=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>
+          ]
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::iterator_category': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::value_type': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::difference_type': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::pointer': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      see declaration of 'stdext::checked_array_iterator'
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::reference': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(4747,33): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::operator ++': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+      X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(4747,33):
+      the template instantiation context (the oldest one first) is
+          X:\Current\breakpad\src\client\windows\crash_generation\minidump_generator.cc(177,8):
+          see reference to function template instantiation '_OutIt std::copy<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>,
+              _Ty=AVRF_HANDLE_OPERATION,
+              _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<AVRF_HANDLE_OPERATION>>>
+          ]
+          X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(4761,36):
+          see reference to function template instantiation '_OutIt std::_Copy_unchecked<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,_OutIt>(_InIt,_Sent,_OutIt)' being compiled
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>,
+              _Ty=AVRF_HANDLE_OPERATION,
+              _InIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<AVRF_HANDLE_OPERATION>>>,
+              _Sent=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<AVRF_HANDLE_OPERATION>>>
+          ]
+  
+X:\NitroX\VStudio_Community_2022\VC\Tools\MSVC\14.42.34433\include\xutility(4748,13): warning C4996: 'stdext::checked_array_iterator<AVRF_HANDLE_OPERATION *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file 'minidump_generator.cc')
+  
+  crash_generation_server.vcxproj -> X:\Current\breakpad\src\client\windows\Debug\lib\crash_generation_server.lib

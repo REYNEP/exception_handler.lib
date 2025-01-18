@@ -1,0 +1,4 @@
+﻿  guid_string.cc
+  http_upload.cc
+  string_utils.cc
+  common.vcxproj -> X:\Current\breakpad\src\client\windows\Release\lib\common.lib

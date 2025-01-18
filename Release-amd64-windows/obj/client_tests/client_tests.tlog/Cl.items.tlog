@@ -1,0 +1,6 @@
+X:\Current\breakpad\src\client\windows\unittests\exception_handler_test.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\exception_handler_test.obj
+X:\Current\breakpad\src\client\windows\unittests\exception_handler_death_test.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\exception_handler_death_test.obj
+X:\Current\breakpad\src\client\windows\unittests\exception_handler_nesting_test.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\exception_handler_nesting_test.obj
+X:\Current\breakpad\src\client\windows\unittests\minidump_test.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\minidump_test.obj
+X:\Current\breakpad\src\client\windows\unittests\dump_analysis.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\dump_analysis.obj
+X:\Current\breakpad\src\client\windows\unittests\crash_generation_server_test.cc;X:\Current\breakpad\src\client\windows\Release\obj\client_tests\crash_generation_server_test.obj

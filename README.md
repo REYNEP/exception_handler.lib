@@ -6,3 +6,6 @@
     - Building Google Breakpad on Windows:- THE GUIDE/WIKI Link Above
     - BREAKPAD vs CRASHPAD
         - https://stackoverflow.com/questions/52725299/what-is-the-difference-between-googles-breakpad-and-crashpad-libraries
+    - If you are looking .zip files
+        - https://github.com/REYNEP/libs-include
+        - https://github.com/REYNEP/libs-win32
